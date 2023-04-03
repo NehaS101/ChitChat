@@ -299,7 +299,10 @@
             }
         })
             .then((res) => res.json())
-            .then((out) => { renderStatus(out) })
+            .then((out) => { renderStatus(out) ;setInterval(function() {
+        
+        timer()
+     }, 1000);})
             .catch((err) => console.log(err));
     }
     statusData();
@@ -327,7 +330,7 @@
        
     //function to display
     function renderStatus(data) {
-       
+        
      
         recent.innerHTML = `
         ${
@@ -342,10 +345,7 @@
                                     <p class="time">${el.time}</p>
                                 </div>
                                 <div class="message_p">
-                                    <p id="timeset">${ setInterval(function() {
-        
-        timer()
-     }, 1000)}</p>
+                                    <p id="timeset">${timer()}</p>
                                 </div>
                             </div>
                         </div>`

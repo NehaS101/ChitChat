@@ -323,14 +323,15 @@
         // }
     }
 
-     setInterval(function() {
-        
-       timer()
-    }, 1000);
     
        
     //function to display
     function renderStatus(data) {
+        setInterval(function() {
+        
+        timer()
+     }, 1000);
+     
         recent.innerHTML = `
         ${
             data.map((el) => {

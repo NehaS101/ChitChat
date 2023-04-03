@@ -327,10 +327,7 @@
        
     //function to display
     function renderStatus(data) {
-        setInterval(function() {
-        
-        timer()
-     }, 1000);
+       
      
         recent.innerHTML = `
         ${
@@ -345,7 +342,10 @@
                                     <p class="time">${el.time}</p>
                                 </div>
                                 <div class="message_p">
-                                    <p id="timeset">${timer()}</p>
+                                    <p id="timeset">${ setInterval(function() {
+        
+        timer()
+     }, 1000)}</p>
                                 </div>
                             </div>
                         </div>`

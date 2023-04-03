@@ -299,10 +299,7 @@
             }
         })
             .then((res) => res.json())
-            .then((out) => { renderStatus(out) ;setInterval(function() {
-        
-        timer()
-     }, 1000);})
+            .then((out) => { renderStatus(out) })
             .catch((err) => console.log(err));
     }
     statusData();
@@ -345,7 +342,7 @@
                                     <p class="time">${el.time}</p>
                                 </div>
                                 <div class="message_p">
-                                    <p id="timeset">${timer()}</p>
+                                    <p id="timeset">few seconds ago</p>
                                 </div>
                             </div>
                         </div>`

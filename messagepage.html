@@ -315,12 +315,12 @@
         var minutes =Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));;
         var hours = 0;
 
-        // if(seconds == 59){
-        //   return`${minutes} minutes ago`
-        //     // return `${minutes} minutes ago`
-        // }else{
-            return `${minutes} minutes ${seconds} seconds ago`
-        // }
+        if(seconds == 59){
+          return`1 minutes ago`
+            // return `${minutes} minutes ago`
+        }else{
+            return ` ${seconds} seconds ago`
+        }
     }
 
     

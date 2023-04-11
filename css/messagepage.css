@@ -14,14 +14,11 @@ body {
     background: #f2eadf;
 }
 
-#button{
-    font-size: 20px;
-    padding: 5px;
-}
+
 .container {
     position: relative;
     width: 90%;
-    height: 600px;
+    height: 800px;
     background: #fff;    
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
     overflow: hidden;
@@ -51,7 +48,7 @@ header {
     padding: 5px 0;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 0.9em;
+    font-size: 1.5em;
     cursor: pointer;
 }
 
@@ -90,7 +87,7 @@ header {
 
 .content {
     position: relative;
-    width: calc(1500px * 3);
+    width: calc(1700px * 3);
     display: flex;
     transition: 0.5s;
     overflow: hidden;
@@ -98,19 +95,19 @@ header {
 
 .content .box {
     position: relative;
-    width: 1500px;
+    width: 1800px;
 }
 
 .tabs input:nth-child(1):checked~.content {
-    left: calc(600px * 0);
+    left: calc(700px * 0);
 }
 
 .tabs input:nth-child(2):checked~.content {
-    left: calc(1500px * -1);
+    left: calc(1800px * -1);
 }
 
 .tabs input:nth-child(3):checked~.content {
-    left: calc(1500px * -2);
+    left: calc(1800px * -2);
 }
 
 /* status */
@@ -594,7 +591,7 @@ ion-icon {
 
 .container_calling {
     position: relative;
-    width: 1500px;
+    width: 1700px;
     height: 77vh;
     background: #fff;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
@@ -612,7 +609,7 @@ ion-icon {
 
 #calling_top,
 #calling_bottom {
-    width: 1500px;
+    width: 1700px;
     background: rgb(21,204,164);
     text-align: center;
     padding: 20px 0;
@@ -678,7 +675,7 @@ nav{
     height: 40px;
     border: none;
     outline: none;
-    font-weight: bold;
+   font-size: 18px;
     border-radius: 20px;
     margin-top: 30px;
     margin-right: 50px;
@@ -699,15 +696,17 @@ nav div{
     gap: 10px;
 }
 #button{
-    width: 150px;
+    /* width: 150px; */
     border: none;
     outline: none;
-    font-weight: bold;
+   margin-right: 9px;
     border-radius: 20px;
-    margin-top: 30px;
+    margin-top: 28px;
     color: #474747;
     background-color: #ffffff;
     cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
 }
 #button:hover{
     background-color: rgb(21,204,164);
@@ -799,21 +798,21 @@ margin-right:550px;
     font-size: 14px;
 }
 .right{
-    width: 73%;
-    min-width: 400px;
+    width: 76%;
+    min-width: 500px;
     height: 100%;
     border-left: 1px solid rgba(0, 0, 0, 0.14);
     
 }
 .right-cont{
     background: #f8f9fa;
-    padding: 30px 0;
+    padding: 20px 0;
     text-align: center;
     height: 100%;
 }
 .right-cont img{
     margin-top: 100px;
-    width: 450px;
+    width: 500px;
 }
 .right-cont h1{
     font-size: 32px;

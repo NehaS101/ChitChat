@@ -14,6 +14,10 @@ body {
     background: #f2eadf;
 }
 
+#button{
+    font-size: 20px;
+    padding: 5px;
+}
 .container {
     position: relative;
     width: 90%;

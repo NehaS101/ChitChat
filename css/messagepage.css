@@ -90,7 +90,7 @@ header {
 
 .content {
     position: relative;
-    width: calc(1200px * 3);
+    width: calc(1500px * 3);
     display: flex;
     transition: 0.5s;
     overflow: hidden;
@@ -98,7 +98,7 @@ header {
 
 .content .box {
     position: relative;
-    width: 1200px;
+    width: 1500px;
 }
 
 .tabs input:nth-child(1):checked~.content {
@@ -106,11 +106,11 @@ header {
 }
 
 .tabs input:nth-child(2):checked~.content {
-    left: calc(1200px * -1);
+    left: calc(1500px * -1);
 }
 
 .tabs input:nth-child(3):checked~.content {
-    left: calc(1200px * -2);
+    left: calc(1500px * -2);
 }
 
 /* status */

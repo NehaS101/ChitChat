@@ -800,7 +800,7 @@ margin-right:550px;
 }
 .right{
     width: 73%;
-    min-width: 300px;
+    min-width: 400px;
     height: 100%;
     border-left: 1px solid rgba(0, 0, 0, 0.14);
     
@@ -813,7 +813,7 @@ margin-right:550px;
 }
 .right-cont img{
     margin-top: 100px;
-    width: 400px;
+    width: 450px;
 }
 .right-cont h1{
     font-size: 32px;

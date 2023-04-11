@@ -594,7 +594,7 @@ ion-icon {
 
 .container_calling {
     position: relative;
-    width: 1200px;
+    width: 1500px;
     height: 77vh;
     background: #fff;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
@@ -612,7 +612,7 @@ ion-icon {
 
 #calling_top,
 #calling_bottom {
-    width: 1200px;
+    width: 1500px;
     background: rgb(21,204,164);
     text-align: center;
     padding: 20px 0;
